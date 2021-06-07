@@ -10,11 +10,11 @@ namespace DevFitness.ConsoleApp
     {
         public Comida(string descricao, int calorias, decimal preco) : base(descricao, calorias)
         {
-            Preco = Preco;
+            Preco = preco;
         }
 
         public decimal Preco { get; private set; }
 
-        public override void Imprimiren{ get; set; }
+        
     }
 }
